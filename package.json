@@ -10,6 +10,5 @@
     "express-hbs": "^1.0.4",
     "pg": "^7.0.2",
     "sequelize": "^4.4.2",
-    "sequelize-cli": "^2.7.0"
   }
 }

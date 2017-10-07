@@ -2,14 +2,11 @@ const Sequelize = require('sequelize');
 //connect to db
 //TODO setup-the project and db
 const db = new Sequelize("db","username","pass",{
-  dialect: "",
-  host: ""
+  dialect: "dialect",
+  host: "localhost"
 });
 
-//make table
-const table = db.define({
-  attr: "prop"
-})
 
 
-module.exports = table;
+
+module.exports = db;
